@@ -921,12 +921,8 @@ export default function Home() {
         <div className="container">
           <nav className="nav-bar">
             <a href="#" className="nav-logo">
-              <div className="logo-icon-wrapper magnetic" style={{ width: "32px", height: "32px" }}>
+              <div className="logo-icon-wrapper magnetic" style={{ width: "64px", height: "64px" }}>
                 <img src="/logo.png" alt="DesignSync Logo" style={{ width: "100%", height: "100%", borderRadius: "8px", objectFit: "contain" }} />
-              </div>
-              <div className="logo-text-group">
-                <span className="logo-title-name">DesignSync</span>
-                <span className="logo-subtitle-desc">Kuldip | Designer & Marketer</span>
               </div>
             </a>
 

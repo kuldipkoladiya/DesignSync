@@ -742,6 +742,24 @@ html, body {
   padding: 6px;
   border-radius: 100px;
   border: 1px solid var(--border-light);
+  transition: var(--transition-fast);
+}
+
+@media (max-width: 768px) {
+  .portfolio-filter-pill-bar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+    scrollbar-width: none;
+    padding: 6px 12px;
+  }
+  .portfolio-filter-pill-bar::-webkit-scrollbar {
+    display: none;
+  }
+  .portfolio-filter-pill {
+    flex-shrink: 0;
+  }
 }
 
 .portfolio-filter-pill {
