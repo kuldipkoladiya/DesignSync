@@ -864,8 +864,7 @@ export default function Home() {
           <div ref={preloaderRef} className="preloader-overlay">
             <div className="preloader-header">
               <div className="preloader-logo">
-                <span className="logo-icon-part logo-part-1"></span>
-                <span className="logo-icon-part logo-part-2"></span>
+                <img src="/logo.png" alt="DesignSync Logo" style={{ width: "32px", height: "32px", borderRadius: "8px", objectFit: "contain" }} />
                 <span className="preloader-logo-text">DesignSync</span>
               </div>
               <span className="preloader-status-text">constructing experience</span>
@@ -922,9 +921,8 @@ export default function Home() {
         <div className="container">
           <nav className="nav-bar">
             <a href="#" className="nav-logo">
-              <div className="logo-icon-wrapper magnetic">
-                <span className="logo-icon-part logo-part-1"></span>
-                <span className="logo-icon-part logo-part-2"></span>
+              <div className="logo-icon-wrapper magnetic" style={{ width: "32px", height: "32px" }}>
+                <img src="/logo.png" alt="DesignSync Logo" style={{ width: "100%", height: "100%", borderRadius: "8px", objectFit: "contain" }} />
               </div>
               <div className="logo-text-group">
                 <span className="logo-title-name">DesignSync</span>
@@ -1334,9 +1332,7 @@ export default function Home() {
               <div className="phone-screen">
                 <div className="phone-header">
                   <div className="phone-header-profile">
-                    <div className="phone-profile-pic">
-                      <div className="phone-profile-inner">KD</div>
-                    </div>
+                    <img src="/logo.png" alt="Profile" className="phone-profile-pic-img" style={{ width: "36px", height: "36px", borderRadius: "50%", border: "2px solid var(--primary)", objectFit: "cover" }} />
                     <div className="phone-profile-details">
                       <span className="phone-profile-name">kuldip.designs</span>
                       <span className="phone-profile-title">Graphics & Social Marketer</span>
@@ -1608,9 +1604,8 @@ export default function Home() {
             {/* Logo and Info */}
             <div className="footer-brand-col">
               <a href="#" className="footer-logo">
-                <div className="logo-icon-wrapper">
-                  <span className="logo-icon-part logo-part-1"></span>
-                  <span className="logo-icon-part logo-part-2"></span>
+                <div className="logo-icon-wrapper" style={{ width: "32px", height: "32px" }}>
+                  <img src="/logo.png" alt="DesignSync Logo" style={{ width: "100%", height: "100%", borderRadius: "8px", objectFit: "contain" }} />
                 </div>
                 <div className="logo-text-group">
                   <span className="logo-title-name">DesignSync</span>
