@@ -86,12 +86,12 @@ export default function Home() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const whatsappText = `Hello! My name is ${encodeURIComponent(formData.name)}. I am interested in your ${encodeURIComponent(formData.service)} services. Here are some details: ${encodeURIComponent(formData.message)}. Let's work together!`;
-    window.open(`https://wa.me/919876543210?text=${whatsappText}`, "_blank");
+    window.open(`https://wa.me/919638470305?text=${whatsappText}`, "_blank");
   };
 
   const handleDirectWhatsApp = () => {
     const text = encodeURIComponent("Hello Kuldip! I saw your portfolio and would love to discuss a project with you.");
-    window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
+    window.open(`https://wa.me/919638470305?text=${text}`, "_blank");
   };
 
   // Portfolio items from the reference image
@@ -1684,7 +1684,7 @@ export default function Home() {
 
       {/* Floating Action WhatsApp Widget */}
       <a 
-        href="https://wa.me/919876543210?text=Hello%20Kuldip!%20I%20would%20love%20to%20collaborate%20on%20a%20project%20with%20you."
+        href="https://wa.me/919638470305?text=Hello%20Kuldip!%20I%20would%20love%20to%20collaborate%20on%20a%20project%20with%20you."
         target="_blank"
         rel="noopener noreferrer"
         className="floating-whatsapp-cta"
